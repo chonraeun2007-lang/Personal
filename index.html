@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chomraeun - Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Chomraeun, full-stack developer based in Phnom Penh, Cambodia.">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="90" tabindex="0">
+
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-cyan" href="#">
+                <i class="fa-solid fa-code me-2"></i>Chomraeun
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-outline-cyan ms-lg-3 rounded-pill px-4">Hire Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <span class="badge badge-glow mb-3"><i class="fa-solid fa-circle text-success me-2"></i>Software Developer</span>
+                    <h1 class="hero-title">I build <span class="text-gradient">digital experiences</span> that grow businesses.</h1>
+                    <p class="hero-subtext mt-3">I'm <strong>Chomraeun</strong>, a passionate full-stack developer who loves turning ideas into scalable, beautiful, and performant web applications.</p>
+                    
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+                        <a href="#projects" class="btn btn-cyan rounded-pill px-4 py-2">View My Work <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                        <a href="#contact" class="btn btn-glass rounded-pill px-4 py-2">Let's Talk <i class="fa-regular fa-comments ms-2"></i></a>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-4 social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 text-center position-relative mt-5 mt-lg-0">
+                    <div class="profile-glow"></div>
+                    <img src="./photo/01.jpg" class="img-fluid rounded-4 profile-img" alt="Chomraeun">
+                    
+                    <!-- Floating Cards -->
+                    <div class="floating-card top-card glass-card">
+                        <span class="fs-4 fw-bold text-cyan">5+</span>
+                        <small class="d-block text-muted">Years Experience</small>
+                    </div>
+                    <div class="floating-card bottom-card glass-card">
+                        <span class="fs-4 fw-bold text-cyan">30+</span>
+                        <small class="d-block text-muted">Projects Done</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-heading mb-4">
+                <span class="section-kicker">Who I Am</span>
+                <h2>Crafting solid products with clean architecture and strong UX.</h2>
+            </div>
+            <div class="row g-4">
+                <!-- About Box -->
+                <div class="col-lg-5">
+                    <div class="glass-card p-4 h-100">
+                        <h4 class="mb-3"><i class="fa-regular fa-user text-cyan me-2"></i>About Me</h4>
+                        <p class="text-muted">I'm a full-stack developer focused on performance, accessibility, and user-first experiences. I enjoy shipping products that are elegant, reliable, and easy to scale.</p>
+                        
+                        <div class="mt-4">
+                            <p class="mb-2"><strong>Name:</strong> Chomraeun</p>
+                            <p class="mb-2"><strong>Location:</strong> Phnom Penh, Cambodia</p>
+                            <p class="mb-2"><strong>Availability:</strong> <span class="text-success">Available for Hire</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Box -->
+                <div class="col-lg-7" id="skills">
+                    <div class="glass-card p-4 h-100">
+                        <h4 class="mb-4"><i class="fa-solid fa-code text-cyan me-2"></i>My Expertise</h4>
+                        
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>JavaScript / TypeScript</span>
+                                <span>5%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar bg-cyan" style="width: 5%"></div></div>
+                        </div>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>PHP / Laravel</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar bg-cyan" style="width: 90%"></div></div>
+                        </div>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>React / Next.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar bg-cyan" style="width: 85%"></div></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span>MySQL / PostgreSQL</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar bg-cyan" style="width: 88%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="section-heading mb-4">
+                <span class="section-kicker">Portfolio</span>
+                <h2><i class="fa-solid fa-layer-group text-cyan me-2"></i>Selected Work</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="glass-card p-3 project-card">
+                        <div class="project-img bg-secondary rounded mb-3" style="height: 180px;"></div>
+                        <h5>FinTrack Dashboard</h5>
+                        <p class="text-muted small">A modern finance dashboard for tracking expenses and analytics.</p>
+                        <div class="d-flex gap-2">
+                            <span class="badge bg-dark-subtle text-cyan border border-cyan">Laravel</span>
+                            <span class="badge bg-dark-subtle text-cyan border border-cyan">Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="glass-card p-3 project-card">
+                        <div class="project-img bg-secondary rounded mb-3" style="height: 180px;"></div>
+                        <h5>E-commerce Platform</h5>
+                        <p class="text-muted small">Feature-rich e-commerce system with secure payments.</p>
+                        <div class="d-flex gap-2">
+                            <span class="badge bg-dark-subtle text-cyan border border-cyan">PHP</span>
+                            <span class="badge bg-dark-subtle text-cyan border border-cyan">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="glass-card p-3 project-card">
+                        <div class="project-img bg-secondary rounded mb-3" style="height: 180px;"></div>
+                        <h5>AI Task Management</h5>
+                        <p class="text-muted small">AI-powered productivity app to manage team tasks.</p>
+                        <div class="d-flex gap-2">
+                            <span class="badge bg-dark-subtle text-cyan border border-cyan">React</span>
+                            <span class="badge bg-dark-subtle text-cyan border border-cyan">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-5">
+        <div class="container">
+            <div class="section-heading mb-4">
+                <span class="section-kicker">How I Work</span>
+                <h2>Simple process, serious execution.</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="glass-card p-4 h-100 process-card">
+                        <span class="process-step">01</span>
+                        <h5 class="mt-3">Discover</h5>
+                        <p class="text-muted mb-0">I learn your goals, users, and business needs to define a clear product direction.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card p-4 h-100 process-card">
+                        <span class="process-step">02</span>
+                        <h5 class="mt-3">Design + Build</h5>
+                        <p class="text-muted mb-0">I design clean interfaces and develop robust features with modern web technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card p-4 h-100 process-card">
+                        <span class="process-step">03</span>
+                        <h5 class="mt-3">Launch + Improve</h5>
+                        <p class="text-muted mb-0">After launch, I monitor, optimize, and iterate to keep performance and quality high.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="glass-card p-4 p-md-5">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <h3 class="mb-3">Let's Build Something Great</h3>
+                        <p class="text-muted">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+                        <p class="mt-4"><i class="fa-regular fa-envelope text-cyan me-2"></i> hello@chomraeun.dev</p>
+                        <p><i class="fa-solid fa-location-dot text-cyan me-2"></i> Phnom Penh, Cambodia</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control custom-input" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control custom-input" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control custom-input" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-cyan w-100 rounded-pill py-2">Send Message <i class="fa-solid fa-paper-plane ms-2"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-muted py-4 border-top border-light-subtle">
+        <small>&copy; 2026 Chomraeun. All rights reserved.</small>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
